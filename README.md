@@ -1,3 +1,12 @@
 # simple-web-app
-Простое приложение для зачёта
-initial commit
+
+# Установка
+
+```shell
+docker-compose up --build
+```
+
+_внутри контейнера_
+```shell
+php bin/createSchema.php
+```
